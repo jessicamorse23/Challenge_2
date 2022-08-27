@@ -1,7 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+
+header {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: navy;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h2 {
+    display: inline-block;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px;
+    background-color: navy;
+    color: aliceblue;
+    font-size: 30px;
 }
 
 .topnav {
@@ -24,14 +60,27 @@ body {
     color: navy;
 }
 
-.topnav a.active {
-    background-color: aquamarine;
+.container {
+    display: flex;
+    padding: 95px;
+    background-color: aliceblue;
     color: navy;
 }
 
-.container {
+.card {
     display: flex;
-    padding: 15%;
-    background-color: aliceblue;
-    color: navy;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.card img {
+   width: 100%; 
+}
+
+section.card:hover {
+border: 5px solid aliceblue;
 }
