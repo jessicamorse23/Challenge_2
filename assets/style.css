@@ -13,7 +13,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
-  }
+}
 
 header {
     display: flex;
@@ -43,11 +43,12 @@ aside {
 
 ul {
 
+    flex-basis: 50%;
     width: 75%;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    
+
 }
 
 li {
@@ -55,7 +56,7 @@ li {
     flex-grow: 1;
     list-style: none;
     padding: 20px;
-   
+
 }
 
 img {
@@ -107,6 +108,35 @@ footer {
     background-size: 10px 10px;
 }
 
+.container {
+    margin: 15px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex: 1;
+}
+
+.column1 {
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.column2 {
+    height: 100px;
+    flex-wrap: wrap;
+}
+
 #text-block1 {
     display: flex;
     flex-direction: row-reverse;
@@ -119,23 +149,24 @@ footer {
 
 .card {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    flex-basis: 50%;
     padding: 40px;
     border-width: 1px;
     margin: 20px;
 }
 
-.container {
-   position: relative;
+.container1 {
+    position: relative;
 }
-
 
 .text-block {
     position: absolute;
     top: 165px;
     left: 65px;
     width: 100px;
-    background-color:aliceblue;
+    background-color: aliceblue;
     color: navy;
     padding-left: 10px;
     padding-right: 10px;
@@ -148,15 +179,15 @@ footer {
     padding: 3px;
     border-width: 1px;
     margin: 3px;
-    width: 100%; 
+    width: 100%;
 }
 
 li.card:hover {
-border: 5px solid aliceblue;
+    border: 5px solid aliceblue;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: aliceblue;
+        background-color: aliceblue;
     }
-  }
+}
