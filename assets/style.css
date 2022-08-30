@@ -52,6 +52,9 @@ footer {
     font-size: 30px;
 }
 
+.header-container {
+
+}
 .topnav {
     background-color: #666dff;
     overflow: hidden;
@@ -72,7 +75,10 @@ footer {
     color: navy;
 }
 
-.subtitle {
+.container-subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
     background-color: aliceblue;
     padding: 75px;
     border-color: white;
@@ -109,24 +115,28 @@ footer {
 
 .img-small {
     flex-basis: auto;
-    height: 20%
-   
+    height: 20%  
 }
 
-.links {
-    background-color: aliceblue;
-    color: #444cf7;
+
+.flex-container-links {
+    display: flex;
+    justify-content: space-around;
+    color:  #666dff;
     padding: 50px;
+    font-size: 30px;
 
 }
 
 #text-block1 {
-  
+    position: relative;
     bottom: 100 px;
-    left: 20px;
+    left: 800px;
     background-color: aliceblue;
     color: navy;
     padding: 15px 30px;
+    
+    
 }
 
 #img-1 {
@@ -136,6 +146,34 @@ max-width: 900px;
 padding: 10px;
 }
 
+#img-2 {
+    padding: 10px;
+}
+
+#img-3 {
+    padding: 10px;
+}
+
+#img-4 {
+    
+        padding: 10px;
+    
+}
+#img-1:hover {
+    border: 5px solid  #666dff;
+}
+
+#img-2:hover {
+    border: 5px solid #666dff;
+}
+
+#img-3:hover {
+    border: 5px solid  #666dff;
+}
+
+#img-4:hover {
+    border: 5px solid  #666dff;
+}
 
 @media only screen and (max-width: 600px) {
     body {
