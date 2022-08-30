@@ -3,9 +3,26 @@ Personal website project for Jessica Morse
 
 ## Description
 The project is a personal portfolio webpage built to showcase future deployed web applications. 
+This webpage and the content displayed will eventually be able to showcase my skills
+and talents to future employers. During this project I learned how to successfully 
+utilize flexbox and CSS variables to create a webpage that shows aspects of my 
+personal style. I also learned how to utilize media queries to to shrink the page 
+so the elements fit on a mobile screen. 
 
-Photo by <a href="https://unsplash.com/@cmzw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mingwei Lim</a> on <a href="https://unsplash.com/t/textures-patterns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+## Installation
+N/A
+
+## Usage
+N/A
+
+## Credits
+CSS Code for Subtitle Container was sourced from
+![Magic Pattern](https://www.magicpattern.design/tools/css-backgrounds)
+
+Placeholder images for future projects were sourced from 
+![Unsplash.com](https://unsplash.com/) 
+![Large Image](https://unsplash.com/photos/l3N9Q27zULw)
+![Smaller Images]([https://unsplash.com/photos/VRaJqLjeWWk]) 
   
-  https://www.magicpattern.design/tools/css-backgrounds
-
-  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+## License
+N/A
