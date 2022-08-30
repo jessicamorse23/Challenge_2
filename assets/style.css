@@ -53,6 +53,7 @@ footer {
 }
 
 .header-container {
+    display: flex;
 
 }
 .topnav {
@@ -125,17 +126,17 @@ footer {
     color:  #666dff;
     padding: 50px;
     font-size: 30px;
+    text-decoration: none;
 
 }
 
 #text-block1 {
-    position: relative;
+    align-self: flex-end;
     bottom: 100 px;
     left: 800px;
     background-color: aliceblue;
     color: navy;
     padding: 15px 30px;
-    
     
 }
 
