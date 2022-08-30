@@ -13,16 +13,16 @@ so the elements fit on a mobile screen.
 N/A
 
 ## Usage
-N/A
+[Link to Challenge 2 URL]https://jessicamorse23.github.io/Challenge_2/
 
 ## Credits
 CSS Code for Subtitle Container was sourced from
-![Magic Pattern](https://www.magicpattern.design/tools/css-backgrounds)
+[Magic Pattern](https://www.magicpattern.design/tools/css-backgrounds)
 
 Placeholder images for future projects were sourced from 
-![Unsplash.com](https://unsplash.com/) 
-![Large Image](https://unsplash.com/photos/l3N9Q27zULw)
-![Smaller Images]([https://unsplash.com/photos/VRaJqLjeWWk]) 
+[Unsplash.com](https://unsplash.com/) 
+[Large Image](https://unsplash.com/photos/l3N9Q27zULw)
+[Smaller Images]([https://unsplash.com/photos/VRaJqLjeWWk]) 
   
 ## License
 N/A
